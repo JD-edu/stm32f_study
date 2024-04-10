@@ -1,0 +1,223 @@
+22:13:38 **** Incremental Build of configuration Debug for project UART_custom_mx ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.d" -MT"Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.d" -MT"Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.d" -MT"Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.o"
+arm-none-eabi-gcc "../Drivers/BSP/Components/lis3dsh/lis3dsh.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/Components/lis3dsh/lis3dsh.d" -MT"Drivers/BSP/Components/lis3dsh/lis3dsh.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/lis3dsh/lis3dsh.o"
+arm-none-eabi-gcc "../Drivers/BSP/Components/lis302dl/lis302dl.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/Components/lis302dl/lis302dl.d" -MT"Drivers/BSP/Components/lis302dl/lis302dl.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/lis302dl/lis302dl.o"
+arm-none-eabi-gcc "../Drivers/BSP/Components/cs43l22/cs43l22.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/Components/cs43l22/cs43l22.d" -MT"Drivers/BSP/Components/cs43l22/cs43l22.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/cs43l22/cs43l22.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:89:8: error: unknown type name 'SPI_HandleTypeDef'
+   89 | static SPI_HandleTypeDef    SpiHandle;
+      |        ^~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:90:8: error: unknown type name 'I2C_HandleTypeDef'
+   90 | static I2C_HandleTypeDef    I2cHandle;
+      |        ^~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'SPIx_Init':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:294:6: warning: implicit declaration of function 'HAL_SPI_GetState'; did you mean 'HAL_DMA_GetState'? [-Wimplicit-function-declaration]
+  294 |   if(HAL_SPI_GetState(&SpiHandle) == HAL_SPI_STATE_RESET)
+      |      ^~~~~~~~~~~~~~~~
+      |      HAL_DMA_GetState
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:294:38: error: 'HAL_SPI_STATE_RESET' undeclared (first use in this function); did you mean 'HAL_DMA_STATE_RESET'?
+  294 |   if(HAL_SPI_GetState(&SpiHandle) == HAL_SPI_STATE_RESET)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+      |                                      HAL_DMA_STATE_RESET
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:294:38: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:297:14: error: request for member 'Instance' in something not a structure or union
+  297 |     SpiHandle.Instance = DISCOVERY_SPIx;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:298:14: error: request for member 'Init' in something not a structure or union
+  298 |     SpiHandle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
+      |              ^
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+In file included from ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c:115:
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.h:33:10: fatal error: ../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc/pdm2pcm_glo.h: No such file or directory
+   33 | #include "../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc/pdm2pcm_glo.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:298:40: error: 'SPI_BAUDRATEPRESCALER_16' undeclared (first use in this function)
+  298 |     SpiHandle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:299:14: error: request for member 'Init' in something not a structure or union
+  299 |     SpiHandle.Init.Direction = SPI_DIRECTION_2LINES;
+      |              ^
+In file included from ../Core/Src/main.c:20:
+../Core/Inc/main.h:31:10: fatal error: stm32f4_discovery.h: No such file or directory
+   31 | #include "stm32f4_discovery.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:299:32: error: 'SPI_DIRECTION_2LINES' undeclared (first use in this function)
+  299 |     SpiHandle.Init.Direction = SPI_DIRECTION_2LINES;
+      |                                ^~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:300:14: error: request for member 'Init' in something not a structure or union
+  300 |     SpiHandle.Init.CLKPhase = SPI_PHASE_1EDGE;
+      |              ^
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+make: *** [Drivers/BSP/STM32F4-Discovery/subdir.mk:25: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:300:31: error: 'SPI_PHASE_1EDGE' undeclared (first use in this function)
+  300 |     SpiHandle.Init.CLKPhase = SPI_PHASE_1EDGE;
+      |                               ^~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:301:14: error: request for member 'Init' in something not a structure or union
+  301 |     SpiHandle.Init.CLKPolarity = SPI_POLARITY_LOW;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:301:34: error: 'SPI_POLARITY_LOW' undeclared (first use in this function)
+  301 |     SpiHandle.Init.CLKPolarity = SPI_POLARITY_LOW;
+      |                                  ^~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:302:14: error: request for member 'Init' in something not a structure or union
+  302 |     SpiHandle.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLED;
+      |              ^
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:30,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.h:29,
+                 from ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:1329:41: error: 'SPI_CRCCALCULATION_DISABLE' undeclared (first use in this function); did you mean 'SPI_CRCCALCULATION_DISABLED'?
+ 1329 | #define SPI_CRCCALCULATION_DISABLED     SPI_CRCCALCULATION_DISABLE
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:302:37: note: in expansion of macro 'SPI_CRCCALCULATION_DISABLED'
+  302 |     SpiHandle.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLED;
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:303:14: error: request for member 'Init' in something not a structure or union
+  303 |     SpiHandle.Init.CRCPolynomial = 7;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:304:14: error: request for member 'Init' in something not a structure or union
+  304 |     SpiHandle.Init.DataSize = SPI_DATASIZE_8BIT;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:304:31: error: 'SPI_DATASIZE_8BIT' undeclared (first use in this function)
+  304 |     SpiHandle.Init.DataSize = SPI_DATASIZE_8BIT;
+      |                               ^~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:305:14: error: request for member 'Init' in something not a structure or union
+  305 |     SpiHandle.Init.FirstBit = SPI_FIRSTBIT_MSB;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:305:31: error: 'SPI_FIRSTBIT_MSB' undeclared (first use in this function)
+  305 |     SpiHandle.Init.FirstBit = SPI_FIRSTBIT_MSB;
+      |                               ^~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:306:14: error: request for member 'Init' in something not a structure or union
+  306 |     SpiHandle.Init.NSS = SPI_NSS_SOFT;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:306:26: error: 'SPI_NSS_SOFT' undeclared (first use in this function)
+  306 |     SpiHandle.Init.NSS = SPI_NSS_SOFT;
+      |                          ^~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:307:14: error: request for member 'Init' in something not a structure or union
+  307 |     SpiHandle.Init.TIMode = SPI_TIMODE_DISABLED;
+      |              ^
+In file included from ../Core/Src/stm32f4xx_hal_msp.c:22:
+../Core/Inc/main.h:31:10: fatal error: stm32f4_discovery.h: No such file or directory
+   31 | #include "stm32f4_discovery.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:30,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.h:29,
+                 from ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:1326:41: error: 'SPI_TIMODE_DISABLE' undeclared (first use in this function); did you mean 'SPI_TIMODE_DISABLED'?
+ 1326 | #define SPI_TIMODE_DISABLED             SPI_TIMODE_DISABLE
+      |                                         ^~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:307:29: note: in expansion of macro 'SPI_TIMODE_DISABLED'
+  307 |     SpiHandle.Init.TIMode = SPI_TIMODE_DISABLED;
+      |                             ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:308:14: error: request for member 'Init' in something not a structure or union
+  308 |     SpiHandle.Init.Mode = SPI_MODE_MASTER;
+      |              ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/stm32f4xx_hal_msp.o] Error 1
+In file included from ../Core/Src/stm32f4xx_it.c:21:
+../Core/Inc/main.h:31:10: fatal error: stm32f4_discovery.h: No such file or directory
+   31 | #include "stm32f4_discovery.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/stm32f4xx_it.o] Error 1
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:308:27: error: 'SPI_MODE_MASTER' undeclared (first use in this function)
+  308 |     SpiHandle.Init.Mode = SPI_MODE_MASTER;
+      |                           ^~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:311:5: warning: implicit declaration of function 'HAL_SPI_Init'; did you mean 'HAL_GPIO_Init'? [-Wimplicit-function-declaration]
+  311 |     HAL_SPI_Init(&SpiHandle);
+      |     ^~~~~~~~~~~~
+      |     HAL_GPIO_Init
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'SPIx_WriteRead':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:327:6: warning: implicit declaration of function 'HAL_SPI_TransmitReceive' [-Wimplicit-function-declaration]
+  327 |   if(HAL_SPI_TransmitReceive(&SpiHandle, (uint8_t*) &Byte, (uint8_t*) &receivedbyte, 1, SpixTimeout) != HAL_OK)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'SPIx_Error':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:341:3: warning: implicit declaration of function 'HAL_SPI_DeInit'; did you mean 'HAL_GPIO_DeInit'? [-Wimplicit-function-declaration]
+  341 |   HAL_SPI_DeInit(&SpiHandle);
+      |   ^~~~~~~~~~~~~~
+      |   HAL_GPIO_DeInit
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'I2Cx_Init':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:375:6: warning: implicit declaration of function 'HAL_I2C_GetState'; did you mean 'HAL_DMA_GetState'? [-Wimplicit-function-declaration]
+  375 |   if(HAL_I2C_GetState(&I2cHandle) == HAL_I2C_STATE_RESET)
+      |      ^~~~~~~~~~~~~~~~
+      |      HAL_DMA_GetState
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:375:38: error: 'HAL_I2C_STATE_RESET' undeclared (first use in this function); did you mean 'HAL_DMA_STATE_RESET'?
+  375 |   if(HAL_I2C_GetState(&I2cHandle) == HAL_I2C_STATE_RESET)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+      |                                      HAL_DMA_STATE_RESET
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:378:14: error: request for member 'Init' in something not a structure or union
+  378 |     I2cHandle.Init.ClockSpeed = BSP_I2C_SPEED;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:379:14: error: request for member 'Init' in something not a structure or union
+  379 |     I2cHandle.Init.DutyCycle = I2C_DUTYCYCLE_2;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:379:32: error: 'I2C_DUTYCYCLE_2' undeclared (first use in this function)
+  379 |     I2cHandle.Init.DutyCycle = I2C_DUTYCYCLE_2;
+      |                                ^~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:380:14: error: request for member 'Init' in something not a structure or union
+  380 |     I2cHandle.Init.OwnAddress1 = 0x33;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:381:14: error: request for member 'Init' in something not a structure or union
+  381 |     I2cHandle.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:381:37: error: 'I2C_ADDRESSINGMODE_7BIT' undeclared (first use in this function)
+  381 |     I2cHandle.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:382:14: error: request for member 'Instance' in something not a structure or union
+  382 |     I2cHandle.Instance = DISCOVERY_I2Cx;
+      |              ^
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:386:5: warning: implicit declaration of function 'HAL_I2C_Init'; did you mean 'HAL_LIN_Init'? [-Wimplicit-function-declaration]
+  386 |     HAL_I2C_Init(&I2cHandle);
+      |     ^~~~~~~~~~~~
+      |     HAL_LIN_Init
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'I2Cx_WriteData':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:401:12: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+  401 |   status = HAL_I2C_Mem_Write(&I2cHandle, Addr, (uint16_t)Reg, I2C_MEMADD_SIZE_8BIT, &Value, 1, I2cxTimeout);
+      |            ^~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:401:63: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+  401 |   status = HAL_I2C_Mem_Write(&I2cHandle, Addr, (uint16_t)Reg, I2C_MEMADD_SIZE_8BIT, &Value, 1, I2cxTimeout);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'I2Cx_ReadData':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:422:12: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+  422 |   status = HAL_I2C_Mem_Read(&I2cHandle, Addr, (uint16_t)Reg, I2C_MEMADD_SIZE_8BIT, &value, 1,I2cxTimeout);
+      |            ^~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:422:62: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+  422 |   status = HAL_I2C_Mem_Read(&I2cHandle, Addr, (uint16_t)Reg, I2C_MEMADD_SIZE_8BIT, &value, 1,I2cxTimeout);
+      |                                                              ^~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: In function 'I2Cx_Error':
+../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:440:3: warning: implicit declaration of function 'HAL_I2C_DeInit'; did you mean 'HAL_RCC_DeInit'? [-Wimplicit-function-declaration]
+  440 |   HAL_I2C_DeInit(&I2cHandle);
+      |   ^~~~~~~~~~~~~~
+      |   HAL_RCC_DeInit
+make: *** [Drivers/BSP/STM32F4-Discovery/subdir.mk:25: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+22:13:40 Build Failed. 45 errors, 9 warnings. (took 2s.95ms)
+

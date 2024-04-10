@@ -1,0 +1,20 @@
+16:55:26 **** Incremental Build of configuration Debug for project UART_TwoBoards_ComIT ****
+make -j12 all 
+arm-none-eabi-gcc "C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/UART_TwoBoards_ComIT/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_STM32F4_DISCO -DSTM32F407xx -DUSE_HAL_DRIVER -c -I../../Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/BSP/STM32F4-Discovery -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/main.o"
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/UART_TwoBoards_ComIT/Src/main.c:326:17: warning: 'Buffercmp' defined but not used [-Wunused-function]
+  326 | static uint16_t Buffercmp(uint8_t* pBuffer1, uint8_t* pBuffer2, uint16_t BufferLength)
+      |                 ^~~~~~~~~
+arm-none-eabi-gcc -o "UART_TwoBoards_ComIT.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\UART_TwoBoards_ComIT\UART_TwoBoards_ComIT\STM32CubeIDE\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_TwoBoards_ComIT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_TwoBoards_ComIT.elf
+ 
+arm-none-eabi-size  UART_TwoBoards_ComIT.elf 
+arm-none-eabi-objdump -h -S UART_TwoBoards_ComIT.elf  > "UART_TwoBoards_ComIT.list"
+   text	   data	    bss	    dec	    hex	filename
+  11412	     56	   1656	  13124	   3344	UART_TwoBoards_ComIT.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_TwoBoards_ComIT.list
+ 
+
+16:55:28 Build Finished. 0 errors, 1 warnings. (took 1s.638ms)
+

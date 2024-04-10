@@ -1,0 +1,10 @@
+01:42:28 **** Incremental Build of configuration Debug for project Audio_playback_and_record ****
+make -j12 all 
+arm-none-eabi-size  Audio_playback_and_record.elf 
+   text	   data	    bss	    dec	    hex	filename
+  89276	   1348	  35060	 125684	  1eaf4	Audio_playback_and_record.elf
+Finished building: default.size.stdout
+ 
+
+01:42:28 Build Finished. 0 errors, 0 warnings. (took 344ms)
+

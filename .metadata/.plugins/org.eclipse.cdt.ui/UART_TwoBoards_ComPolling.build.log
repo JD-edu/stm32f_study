@@ -1,0 +1,10 @@
+23:55:22 **** Incremental Build of configuration Debug for project UART_TwoBoards_ComPolling ****
+make -j12 all 
+arm-none-eabi-size  UART_TwoBoards_ComPolling.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9156	    152	   1640	  10948	   2ac4	UART_TwoBoards_ComPolling.elf
+Finished building: default.size.stdout
+ 
+
+23:55:22 Build Finished. 0 errors, 0 warnings. (took 208ms)
+

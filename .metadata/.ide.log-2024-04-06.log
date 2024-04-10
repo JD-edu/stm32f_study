@@ -1,0 +1,1092 @@
+2024-04-06 00:45:48,967 [INFO] MainUpdater:2873 - connection check result : 10
+2024-04-06 00:45:49,160 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-04-06 00:45:49,163 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-04-06 00:45:49,163 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-04-06 00:45:50,388 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-04-06 00:45:50,388 [INFO] DetailPanel:341 - Set advertising image to C:/Users/conne/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-04-06 00:46:18,798 [INFO] ApiDb:581 - Connected to CubeFinder SQLite database (C:\Users\conne\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2024-04-06 00:46:38,043 [INFO] MainUpdater:2873 - connection check result : 10
+2024-04-06 00:46:38,043 [INFO] MainUpdater:2873 - connection check result : 10
+2024-04-06 00:46:38,056 [ERROR] IocParser:57 - IOException caught: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemax_gpio_int\cubemax_gpio_int.ioc (지정된 파일을 찾을 수 없습니다)
+2024-04-06 00:46:38,057 [ERROR] PeripheralListParser:95 - Something went wrong with ioc file reading: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemax_gpio_int\cubemax_gpio_int.ioc (지정된 파일을 찾을 수 없습니다)
+2024-04-06 00:46:38,057 [ERROR] RegexParser:59 - Issue caught when parsing regex: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemax_gpio_int\cubemax_gpio_int.ioc (지정된 파일을 찾을 수 없습니다)
+2024-04-06 00:46:38,123 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-04-06 00:46:38,123 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-04-06 00:46:38,159 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2493) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:933) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3426) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1813) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:533) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:244) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:776) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:290) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1184) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1065) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-04-06 00:46:38,160 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-04-06 00:46:38,160 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-04-06 00:46:38,160 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-04-06 00:46:38,163 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-04-06 00:46:38,167 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-04-06 00:46:38,170 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-04-06 00:46:38,172 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 766393080 Bytes (1073741824)
+2024-04-06 00:46:38,173 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-04-06 00:46:38,173 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-04-06 00:46:38,173 [INFO] OpenFileManager:312 - Change cursor
+2024-04-06 00:46:38,191 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-04-06 00:46:38,205 [INFO] Mcu:2016 - Initializing MCU STM32F407VGTx STM32F407VGTx STM32F407VGT6
+2024-04-06 00:46:39,547 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2024-04-06 00:46:39,888 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2024-04-06 00:46:39,889 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2024-04-06 00:46:39,889 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2024-04-06 00:46:39,925 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-04-06 00:46:39,925 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-04-06 00:46:39,925 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-04-06 00:46:39,925 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-04-06 00:46:39,925 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-04-06 00:46:39,935 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,935 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:39,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-04-06 00:46:40,073 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-04-06 00:46:40,404 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-04-06 00:46:40,826 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 807383336 Bytes (1073741824)
+2024-04-06 00:46:40,935 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-04-06 00:46:40,935 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-04-06 00:46:40,935 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-04-06 00:46:40,935 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-04-06 00:46:40,935 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.6
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.1
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.2
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-04-06 00:46:40,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-04-06 00:46:40,937 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-04-06 00:46:41,021 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-04-06 00:46:41,023 [INFO] PinOutPanel:1499 - setPackage(STM32F407VGTx,LQFP100)
+2024-04-06 00:46:41,195 [INFO] UtilMem:75 - Before build in PCC Used Memory: 744478720 Bytes (1073741824)
+2024-04-06 00:46:41,539 [INFO] UtilMem:75 - After build in PCC Used Memory: 789565440 Bytes (1073741824)
+2024-04-06 00:46:41,565 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,566 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,567 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,568 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,569 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,569 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,569 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,569 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,569 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,570 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,570 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,570 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,570 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,570 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,571 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,571 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,571 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,571 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,572 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,572 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,572 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,572 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,572 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,573 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,573 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,573 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,574 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,574 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,574 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,574 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,575 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,575 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,576 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,576 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-04-06 00:46:41,602 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-04-06 00:46:41,632 [INFO] CADModel:165 - CPN selected for project levelSTM32F407VGT6
+2024-04-06 00:46:41,632 [INFO] CADModel:114 - Register for checkConnection events
+2024-04-06 00:46:41,687 [INFO] OpenFileManager:343 - Restore cursor
+2024-04-06 00:46:42,039 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 894286192 Bytes (1073741824)
+2024-04-06 00:46:42,089 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 919294240 Bytes (1073741824)
+2024-04-06 00:46:42,319 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-06 00:46:42,319 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-06 00:46:42,321 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-04-06 00:46:42,598 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\MXTmpFiles\license.tmp_save
+2024-04-06 00:46:42,827 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\MXTmpFiles\license.tmp
+2024-04-06 00:46:42,857 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Src\stm32f4xx_it.c_save
+2024-04-06 00:46:43,054 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Src\stm32f4xx_it.c
+2024-04-06 00:46:43,072 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Inc\stm32f4xx_it.h_save
+2024-04-06 00:46:43,161 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Inc\stm32f4xx_it.h
+2024-04-06 00:46:43,229 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Src\stm32f4xx_hal_msp.c_save
+2024-04-06 00:46:43,353 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Src\stm32f4xx_hal_msp.c
+2024-04-06 00:46:43,363 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\MXTmpFiles\system.tmp_save
+2024-04-06 00:46:43,421 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\MXTmpFiles\system.tmp
+2024-04-06 00:46:43,440 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-04-06 00:46:43,564 [INFO] CodeEngine:335 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Inc\stm32f4xx_hal_conf.h
+2024-04-06 00:46:43,609 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Inc\main.h_save
+2024-04-06 00:46:43,730 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Inc\main.h
+2024-04-06 00:46:43,740 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Src\main.c_save
+2024-04-06 00:46:43,877 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_i2c_accel\Core\Src\main.c
+2024-04-06 00:46:44,675 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 225mS.
+2024-04-06 00:46:44,678 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-04-06 00:46:44,957 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-04-06 00:46:44,972 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-04-06 00:46:44,991 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-04-06 00:46:45,002 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-04-06 00:46:45,021 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2024-04-06 00:46:45,040 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-04-06 00:46:45,061 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-04-06 00:46:45,083 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-04-06 00:46:47,703 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 3024mS.
+2024-04-06 00:46:47,704 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-04-06 00:46:47,709 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-04-06 00:46:48,911 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-04-06 00:46:48,915 [INFO] ApiDb:448 - Save user favorites file C:\Users\conne/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-04-06 00:46:48,916 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-04-06 00:48:21,690 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x155,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-06 00:48:49,073 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,073 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,090 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,090 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,090 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,090 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,114 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,114 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,115 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-06 00:48:49,115 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-06 10:52:26,501 [INFO] MainUpdater:2873 - connection check result : 10
+2024-04-06 10:52:26,588 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-04-06 10:52:26,590 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-04-06 10:52:26,591 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-04-06 10:52:27,599 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-04-06 10:52:27,599 [INFO] DetailPanel:341 - Set advertising image to C:/Users/conne/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-04-06 10:53:02,715 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-04-06 10:53:02,747 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-04-06 10:53:02,747 [INFO] DetailPanel:341 - Set advertising image to C:/Users/conne/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-04-06 10:53:02,749 [INFO] MultiScanPanel:728 - adjusting invalid saved split location: 1.27
+2024-04-06 10:53:02,761 [INFO] MultiScanPanel:728 - adjusting invalid saved split location: 1.27
+2024-04-06 10:53:02,763 [INFO] MultiScanPanel:728 - adjusting invalid saved split location: 1.27
+2024-04-06 10:53:02,765 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-04-06 10:53:02,846 [INFO] ApiDb:668 - CubeFinder database Data Model version=2.1
+2024-04-06 10:53:02,846 [INFO] ApiDb:669 - CubeFinder database Configuration version=3.0.39
+2024-04-06 10:53:02,846 [INFO] ApiDb:670 - CubeFinder database generation date=2024-03-25 (1711369621)
+2024-04-06 10:53:02,846 [INFO] ApiDb:671 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V2.0.0, FP-SNS-FLIGHT1_V5.0.1, FP-SNS-FLIGHT1_V5.0.2, FP-SNS-MOTENV1_V4.3.1, FP-SNS-MOTENV1_V4.3.2, FP-SNS-MOTENVWB1_V1.3.1, FP-SNS-SMARTAG2_V1.2.0, STM32Cube_FW_C0_V1.1.0, STM32Cube_FW_F4_V1.28.0, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.2, STM32Cube_FW_G4_V1.5.2, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.1.1, STM32Cube_FW_H5_V1.2.0, STM32Cube_FW_H5_V1.2.0RC4, STM32Cube_FW_H7RS_V1.0.0, STM32Cube_FW_H7RS_V1.0.0RC4, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.1, STM32Cube_FW_U0_V1.0.0, STM32Cube_FW_U0_V1.0.0RC1, STM32Cube_FW_U5_V1.3.0RC4, STM32Cube_FW_U5_V1.5.0, STM32Cube_FW_U5_V1.5.0RC1, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.2.0, STM32Cube_FW_WBA_V1.2.0RC2, STM32Cube_FW_WBA_V1.3.0, STM32Cube_FW_WBA_V1.3.0RC1, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WB_V1.18.0, STM32Cube_FW_WB_V1.19.0, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V2.0.0, X-CUBE-AZRTOS-H7_V3.2.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L4_V2.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V2.0.0, X-CUBE-AZRTOS-WL_V2.0.0, X-CUBE-BLE1_V7.0.0, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V3.1.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-EEPRMA1_V5.1.0, X-CUBE-FREERTOS_V1.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V10.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.6.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.1, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0, X-CUBE-TOF1_V3.4.0]
+2024-04-06 10:53:03,469 [ERROR] DbExamplesSqlite:437 - Missing JSON key: board_cpn
+2024-04-06 10:53:03,469 [ERROR] DbExamplesSqlite:437 - Missing JSON key: board_cpn
+2024-04-06 10:53:03,469 [ERROR] DbExamplesSqlite:437 - Missing JSON key: board_cpn
+2024-04-06 10:53:03,469 [ERROR] DbExamplesSqlite:437 - Missing JSON key: board_cpn
+2024-04-06 10:53:03,536 [INFO] DbExamplesSqlite:395 - Ignored 60 examples not supported by CubeIDE
+2024-04-06 10:53:03,536 [INFO] DbExamplesSqlite:396 - Found 8152 examples active
+2024-04-06 10:53:03,536 [INFO] DbExamplesSqlite:397 - Found 871 examples obsolete
+2024-04-06 10:53:03,536 [INFO] DbExamplesSqlite:398 - Found 0 examples under development
+2024-04-06 10:53:03,536 [INFO] DbExamplesSqlite:399 - Found 10 examples not building
+2024-04-06 10:53:03,537 [INFO] DbExamples:125 - Found 8102 examples
+2024-04-06 10:53:03,547 [ERROR] DbExamples:208 - Found 48 examples with invalid data (board or MCU)
+2024-04-06 10:53:03,547 [INFO] DbExamples:222 - Found 100 boards with related examples
+2024-04-06 10:53:03,548 [INFO] DbExamples:235 - Found 85 MCUs with related examples
+2024-04-06 10:53:03,561 [INFO] ApiDb:423 - Load user favorites file C:\Users\conne/.stm32cubeide/favorites.examples.txt: 1 item(s)
+2024-04-06 10:53:03,561 [INFO] ApiDb:427 - User favorites Examples=[STM32CUBEF4-SWX-20562]
+2024-04-06 10:53:03,561 [INFO] DbExamples:250 - Set 1 / 1 favorites Examples
+2024-04-06 10:53:03,974 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'FP-ATR-ASTRA1_V2.0.0'
+2024-04-06 10:53:03,974 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'FP-SNS-FLIGHT1_V5.0.2'
+2024-04-06 10:53:03,975 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'FP-SNS-MOTENV1_V4.3.2'
+2024-04-06 10:53:03,975 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'FP-SNS-MOTENVWB1_V1.3.1'
+2024-04-06 10:53:03,975 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'FP-SNS-SMARTAG2_V1.2.0'
+2024-04-06 10:53:03,999 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_C0_V1.1.0'
+2024-04-06 10:53:04,002 [INFO] SoftwarePacks:131 - Found SW pack 'STM32Cube_FW_F4_V1.28.0' up-to-date on disk.
+2024-04-06 10:53:04,008 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_F7_V1.17.0'
+2024-04-06 10:53:04,013 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_G0_V1.6.2'
+2024-04-06 10:53:04,015 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_G4_V1.5.2'
+2024-04-06 10:53:04,018 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_H5_V1.2.0'
+2024-04-06 10:53:04,022 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_H7RS_V1.0.0'
+2024-04-06 10:53:04,025 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_H7_V1.11.0'
+2024-04-06 10:53:04,028 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_L0_V1.12.2'
+2024-04-06 10:53:04,030 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_L5_V1.5.1'
+2024-04-06 10:53:04,033 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_U0_V1.0.0'
+2024-04-06 10:53:04,036 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_U5_V1.5.0'
+2024-04-06 10:53:04,040 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_WBA_V1.3.0'
+2024-04-06 10:53:04,044 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_WB_V1.19.0'
+2024-04-06 10:53:04,047 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'STM32Cube_FW_WL_V1.3.0'
+2024-04-06 10:53:04,047 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-ALGOBUILD_V1.3.0'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-ALS_V1.0.1'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-F4_V1.1.0'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-F7_V1.1.0'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-G0_V1.1.0'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-G4_V2.0.0'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-H7_V3.2.0'
+2024-04-06 10:53:04,048 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-L4_V2.0.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-L5_V1.1.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-WB_V2.0.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-AZRTOS-WL_V2.0.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-BLE1_V7.0.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-BLE2_V3.3.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-BLEMGR_V3.1.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-EEPRMA1_V5.1.0'
+2024-04-06 10:53:04,049 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-FREERTOS_V1.1.0'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-GNSS1_V6.0.0'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-MEMS1_V10.0.0'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-NFC4_V3.0.0'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-NFC7_V1.0.1'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-SFXS2LP1_V4.0.0'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-SUBG2_V5.0.0'
+2024-04-06 10:53:04,050 [INFO] SoftwarePacks:127 - Download is needed for SW pack 'X-CUBE-TOF1_V3.4.0'
+2024-04-06 10:53:05,576 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-04-06 10:53:05,576 [INFO] DetailPanel:341 - Set advertising image to C:/Users/conne/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-04-06 10:53:05,893 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,895 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,895 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,895 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,897 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,897 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,900 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,900 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,900 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,900 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,901 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,901 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,901 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,901 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,903 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,904 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,904 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,904 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,908 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,908 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,908 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,909 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,910 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,911 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,912 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,912 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,914 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,914 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,914 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,914 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,916 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,917 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,918 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,918 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,918 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,919 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,920 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,922 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,922 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,922 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,923 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,923 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,923 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,924 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,924 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,925 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,925 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,926 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,926 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,926 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,927 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,927 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,928 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,928 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,928 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,928 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,928 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,929 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,929 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,929 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,929 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,929 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,929 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,930 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,931 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,931 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,931 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,931 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,931 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,932 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,933 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,933 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,933 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,933 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,933 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,934 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,934 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,934 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,934 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,934 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,934 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,935 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,935 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,935 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,935 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,935 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:05,937 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,133 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,134 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,134 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,134 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,134 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,134 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,135 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,136 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,136 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,136 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,136 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,136 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,136 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,137 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,137 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,137 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,137 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,137 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,138 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,138 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,138 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,138 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,139 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,139 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,139 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,139 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,139 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,140 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,140 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,140 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,140 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,140 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,140 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,141 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,141 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,141 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,141 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,141 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,141 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,142 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,142 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,142 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,142 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,142 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,142 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,143 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,144 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,150 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,151 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,152 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,153 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,154 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,155 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,156 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,157 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,158 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,159 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,160 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,161 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,162 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,162 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,162 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,162 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,283 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,283 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,284 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,284 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,284 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,284 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,285 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,286 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,287 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,288 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,290 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,290 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,290 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,290 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,290 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,291 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,292 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,293 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,294 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,295 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,296 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,297 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,298 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,299 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,300 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,301 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,302 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,303 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,304 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,305 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,306 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,307 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,308 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,309 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,315 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,317 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,318 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,319 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,320 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,321 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,322 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,323 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,323 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,323 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,335 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,336 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,336 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,336 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,336 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,337 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,337 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,337 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,337 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,338 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,339 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,340 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,340 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,341 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,342 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,342 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,342 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,342 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,343 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,358 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,358 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,358 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,359 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,359 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,359 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,359 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,361 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,396 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,405 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,405 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,410 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,411 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,411 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,443 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,443 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,443 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,443 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,444 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,444 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,444 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,444 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,444 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,444 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,445 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,445 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,445 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,445 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,445 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,445 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,446 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,446 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,446 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,447 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,447 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,447 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,488 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,488 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,488 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,492 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,492 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,492 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,493 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,493 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,494 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,495 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,495 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,495 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,495 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,496 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,496 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,496 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,497 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,497 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,497 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,498 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,498 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,498 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,499 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,499 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,499 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,499 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,500 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,500 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,500 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,501 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,501 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,501 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,502 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,502 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,503 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,505 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:53:06,506 [ERROR] AppliInfo:139 - Unknown STM32CubeMX version: 6.11.0
+2024-04-06 10:56:00,848 [INFO] ExampleToolKit:668 - [info] 2024/04/06 10:56:00
+2024-04-06 10:56:00,849 [INFO] ExampleToolKit:716 - [info] Start Project: HAL_TimeBase_TIM
+2024-04-06 10:56:00,852 [WARN] ExampleToolKit:778 - [WARNING] IDE PROJECT 'SW4STM32' NOT FOUND
+2024-04-06 10:56:00,852 [INFO] ExampleToolKit:810 - [info] Project path: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\HAL_TimeBase_TIM
+2024-04-06 10:56:01,062 [WARN] ExampleToolKit:2148 - [WARNING] IDE PROJECT 'SW4STM32'NOT FOUND
+2024-04-06 10:56:01,088 [INFO] ExampleToolKit:1063 - [info] SW Package located in: C:\Users\conne\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0
+2024-04-06 10:56:01,088 [INFO] ExampleToolKit:1068 - [info] SW Package copy: LITE
+2024-04-06 10:56:08,457 [INFO] ExampleToolKit:882 - [info] Project 'HAL_TimeBase_TIM' installed successfully
+2024-04-06 10:56:08,457 [INFO] ExampleToolKit:908 - [info] 2024/04/06 10:56:08
+2024-04-06 10:56:08,457 [INFO] ExampleToolKit:1027 - [info] Elapsed time: 0h 0m 7s 610ms
+2024-04-06 10:56:12,138 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-04-06 10:56:12,140 [INFO] ApiDb:448 - Save user favorites file C:\Users\conne/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-04-06 10:56:12,140 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-04-06 10:56:12,142 [INFO] ApiDb:448 - Save user favorites file C:\Users\conne/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2024-04-06 10:56:12,142 [INFO] ApiDb:452 - User favorites Boards=[]
+2024-04-06 10:56:12,147 [INFO] ApiDb:448 - Save user favorites file C:\Users\conne/.stm32cubeide/favorites.examples.txt: 1 item(s)
+2024-04-06 10:56:12,147 [INFO] ApiDb:452 - User favorites Examples=[STM32CUBEF4-SWX-20562]

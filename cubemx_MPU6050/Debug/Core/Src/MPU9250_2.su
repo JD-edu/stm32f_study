@@ -1,0 +1,6 @@
+../Core/Inc/i2c.h:17:13:MX_I2C1_Init	8	static
+../Core/Src/MPU9250_2.c:56:9:MPU9250_Init	40	static
+../Core/Src/MPU9250_2.c:95:6:MPU9250_Read_Accel	40	static
+../Core/Src/MPU9250_2.c:117:6:MPU9250_Read_Gyro	40	static
+../Core/Src/MPU9250_2.c:139:6:MPU9250_Read_All	112	static
+../Core/Src/MPU9250_2.c:227:8:Kalman_getAngle	104	static

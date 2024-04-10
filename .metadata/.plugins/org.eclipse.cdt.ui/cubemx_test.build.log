@@ -1,0 +1,10 @@
+00:38:25 **** Incremental Build of configuration Debug for project cubemx_test ****
+make -j12 all 
+arm-none-eabi-size  cubemx_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10876	     20	   1652	  12548	   3104	cubemx_test.elf
+Finished building: default.size.stdout
+ 
+
+00:38:25 Build Finished. 0 errors, 0 warnings. (took 678ms)
+
