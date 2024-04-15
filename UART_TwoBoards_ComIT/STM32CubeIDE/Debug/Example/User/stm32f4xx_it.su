@@ -1,0 +1,10 @@
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:51:6:NMI_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:60:6:HardFault_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:73:6:MemManage_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:86:6:BusFault_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:99:6:UsageFault_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:112:6:SVC_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:121:6:DebugMon_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:130:6:PendSV_Handler	4	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:139:6:SysTick_Handler	8	static
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/stm32f4xx_it.c:157:6:USART2_IRQHandler	8	static

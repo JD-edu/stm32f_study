@@ -1,0 +1,7 @@
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:61:5:main	9
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:216:13:SystemClock_Config	4
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:270:6:HAL_UART_TxCpltCallback	1
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:286:6:HAL_UART_RxCpltCallback	1
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:302:7:HAL_UART_ErrorCallback	1
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:315:17:Buffercmp	3
+C:/Users/conne/STM32CubeIDE/workspace_1.14.1/UART_TwoBoards_ComIT/Src/main.c:335:13:Error_Handler	1
