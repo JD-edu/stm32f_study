@@ -190,7 +190,7 @@ static void MX_TIM6_Init(void)
   htim6.Instance = TIM6;
   htim6.Init.Prescaler = 9999;
   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim6.Init.Period = 2000;
+  htim6.Init.Period = 200;
   htim6.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim6) != HAL_OK)
   {
@@ -253,32 +253,23 @@ static void MX_TIM7_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 /* USER CODE BEGIN MX_GPIO_Init_1 */
 /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
-	 GPIO_InitTypeDef GPIO_InitStruct = {0};
+  __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
 
-	  /* GPIOD APB2 Clock ENABLE */
-	  __HAL_RCC_GPIOD_CLK_ENABLE();
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12|GPIO_PIN_13, GPIO_PIN_RESET);
 
-	  /* Configure GPIO pins : PD13 PDPin */
-	  GPIO_InitStruct.Pin = GPIO_PIN_13;
-	  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	  GPIO_InitStruct.Pull = GPIO_NOPULL;
-	  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-	  GPIO_InitStruct.Pin = GPIO_PIN_12;
-	   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	   GPIO_InitStruct.Pull = GPIO_NOPULL;
-	   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-	     GPIO_InitStruct.Pin = GPIO_PIN_0;
-	     GPIO_InitStruct.Mode = GPIO_MODE_INPUT; // 입력 모드 설정
-	     GPIO_InitStruct.Pull = GPIO_PULLDOWN; // 풀 다운 저항 설정
-	     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  /*Configure GPIO pins : PD12 PD13 */
+  GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_13;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

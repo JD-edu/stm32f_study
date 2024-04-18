@@ -106,44 +106,44 @@ int main(void)
   BSP_PB_Init(BUTTON_KEY, BUTTON_MODE_GPIO);
 	
   /* Wait for USER Button press before starting the Communication */
-  while (BSP_PB_GetState(BUTTON_KEY) == RESET)
-  {
+  //while (BSP_PB_GetState(BUTTON_KEY) == RESET)
+  //{
     /* Toggle LED3 waiting for user to press button */
-    BSP_LED_Toggle(LED3);
-    HAL_Delay(40);		
-  }
+  //  BSP_LED_Toggle(LED3);
+  //  HAL_Delay(40);
+  //}
   
   /* Wait for USER Button release before starting the Communication */
-  while (BSP_PB_GetState(BUTTON_KEY) == SET)
-  {
-  }
+  //while (BSP_PB_GetState(BUTTON_KEY) == SET)
+  //{
+  //}
   
   /* Turn LED3 off */
-  BSP_LED_Off(LED3);
+  //BSP_LED_Off(LED3);
   
   /* The board sends the message and expects to receive it back */
   
   /*##-2- Start the transmission process #####################################*/  
   /* While the UART in reception process, user can transmit data through 
      "aTxBuffer" buffer */
-  if(HAL_UART_Transmit_IT(&UartHandle, (uint8_t*)aTxBuffer, TXBUFFERSIZE)!= HAL_OK)
-  {
-    Error_Handler();
-  }
+  //if(HAL_UART_Transmit_IT(&UartHandle, (uint8_t*)aTxBuffer, TXBUFFERSIZE)!= HAL_OK)
+  //{
+  //  Error_Handler();
+  //}
   
   /*##-3- Wait for the end of the transfer ###################################*/   
-  while (UartReady != SET)
-  {
-  }
+  //while (UartReady != SET)
+  //{
+  //}
   
   /* Reset transmission flag */
-  UartReady = RESET;
+  //artReady = RESET;
   
   /*##-4- Put UART peripheral in reception process ###########################*/  
-  if(HAL_UART_Receive_IT(&UartHandle, (uint8_t *)aRxBuffer, RXBUFFERSIZE) != HAL_OK)
-  {
-    Error_Handler();
-  }
+  //if(HAL_UART_Receive_IT(&UartHandle, (uint8_t *)aRxBuffer, RXBUFFERSIZE) != HAL_OK)
+  //{
+  //  Error_Handler();
+  //}
 
 #else
   
@@ -174,22 +174,27 @@ int main(void)
 #endif /* TRANSMITTER_BOARD */
   
   /*##-5- Wait for the end of the transfer ###################################*/   
-  while (UartReady != SET)
-  {
-  } 
+  //while (UartReady != SET)
+  //{
+  //}
   
   /* Reset transmission flag */
-  UartReady = RESET;
+  //UartReady = RESET;
 
   /*##-6- Compare the sent and received buffers ##############################*/
-  if(Buffercmp((uint8_t*)aTxBuffer,(uint8_t*)aRxBuffer,RXBUFFERSIZE))
-  {
-    Error_Handler();
-  }
+  //if(Buffercmp((uint8_t*)aTxBuffer,(uint8_t*)aRxBuffer,RXBUFFERSIZE))
+  //{
+  //  Error_Handler();
+  //}
   
   /* Infinite loop */
   while (1)
   {
+	  if(HAL_UART_Transmit_IT(&UartHandle, (uint8_t*)aTxBuffer, TXBUFFERSIZE)!= HAL_OK)
+	   {
+	     Error_Handler();
+	   }
+	  HAL_Delay(500);
   }
 }
 
