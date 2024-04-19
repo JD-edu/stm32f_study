@@ -10,3 +10,6 @@
 1713269281483	Delete resource 'ugauga'
 1713404527503	Delete resource 'siva_uart'
 1713411513630	Delete resource 'cubemx_pwm'
+1713510627362	Delete resource 'TIM_TimeBase'
+1713510649330	Delete resource 'TIM_PWMInput'
+1713510659421	Delete resource 'timer_exmaple'
