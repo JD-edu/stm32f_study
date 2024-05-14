@@ -21,7 +21,7 @@
 #include "i2c.h"
 #include "MPU9250_2.h"
 #include "mpu9250.h"
-
+#include <stdio.h>
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -44,7 +44,10 @@
 
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef hi2c1;
+
 TIM_HandleTypeDef htim7;
+
+UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 
@@ -55,6 +58,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_TIM7_Init(void);
+static void MX_USART2_UART_Init(void);
 static void MX_NVIC_Init(void);
 /* USER CODE BEGIN PFP */
 
@@ -95,7 +99,7 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   MX_TIM7_Init();
-  HAL_TIM_Base_Start_IT(&htim7);
+  MX_USART2_UART_Init();
 
   /* Initialize interrupts */
   MX_NVIC_Init();
@@ -110,7 +114,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  MPU9250_Read_All(&hi2c1, &mpu9250);
+	  HAL_Delay(500);
+	  printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -176,6 +182,9 @@ static void MX_NVIC_Init(void)
   /* I2C1_EV_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(I2C1_EV_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(I2C1_EV_IRQn);
+  /* USART2_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(USART2_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(USART2_IRQn);
 }
 
 
@@ -218,6 +227,45 @@ static void MX_TIM7_Init(void)
 }
 
 /**
+  * @brief USART2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART2_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 115200;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART2_Init 2 */
+
+  /* USER CODE END USART2_Init 2 */
+
+}
+
+int __io_putchar (int ch)
+{
+  (void)HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 100);
+  return ch;
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -228,28 +276,9 @@ static void MX_GPIO_Init(void)
 /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
-	 GPIO_InitTypeDef GPIO_InitStruct = {0};
-
-	  /* GPIOD APB2 Clock ENABLE */
-	  __HAL_RCC_GPIOD_CLK_ENABLE();
-
-	  /* Configure GPIO pins : PD13 PDPin */
-	  GPIO_InitStruct.Pin = GPIO_PIN_13;
-	  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	  GPIO_InitStruct.Pull = GPIO_NOPULL;
-	  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-	  GPIO_InitStruct.Pin = GPIO_PIN_12;
-	   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	   GPIO_InitStruct.Pull = GPIO_NOPULL;
-	   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-	     GPIO_InitStruct.Pin = GPIO_PIN_0;
-	     GPIO_InitStruct.Mode = GPIO_MODE_INPUT; // 입력 모드 설정
-	     GPIO_InitStruct.Pull = GPIO_PULLDOWN; // 풀 다운 저항 설정
-	     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

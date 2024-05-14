@@ -1,10 +1,17 @@
-16:16:22 **** Incremental Build of configuration Debug for project cubemx_pwm_example ****
+00:04:31 **** Incremental Build of configuration Debug for project cubemx_pwm_example ****
 make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "cubemx_pwm_example.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_pwm_example\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cubemx_pwm_example.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: cubemx_pwm_example.elf
+ 
 arm-none-eabi-size  cubemx_pwm_example.elf 
+arm-none-eabi-objdump -h -S cubemx_pwm_example.elf  > "cubemx_pwm_example.list"
    text	   data	    bss	    dec	    hex	filename
    9376	     28	   1644	  11048	   2b28	cubemx_pwm_example.elf
 Finished building: default.size.stdout
  
+Finished building: cubemx_pwm_example.list
+ 
 
-16:16:22 Build Finished. 0 errors, 0 warnings. (took 329ms)
+00:04:33 Build Finished. 0 errors, 0 warnings. (took 1s.311ms)
 

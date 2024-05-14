@@ -1,0 +1,10 @@
+23:14:42 **** Incremental Build of configuration Debug for project uga_pwm ****
+make -j12 all 
+arm-none-eabi-size  uga_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8888	     20	   1644	  10552	   2938	uga_pwm.elf
+Finished building: default.size.stdout
+ 
+
+23:14:42 Build Finished. 0 errors, 0 warnings. (took 258ms)
+

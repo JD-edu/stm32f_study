@@ -28,6 +28,7 @@ Core/Src/MPU9250_2.o: ../Core/Src/MPU9250_2.c ../Core/Inc/MPU9250_2.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Core/Inc/i2c.h ../Core/Inc/main.h ../Core/Inc/i2c.h
 ../Core/Inc/MPU9250_2.h:
 ../Core/Inc/main.h:
@@ -60,6 +61,7 @@ Core/Src/MPU9250_2.o: ../Core/Src/MPU9250_2.c ../Core/Inc/MPU9250_2.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../Core/Inc/i2c.h:
 ../Core/Inc/main.h:
 ../Core/Inc/i2c.h:

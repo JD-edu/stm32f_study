@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_MPU6050 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_gpio_basic Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_gpio_interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_TwoBoards_ComIT,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_pwm_example Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uga_timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ugagua_timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cobuemx_uart_tx_rx_int Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_timer_int Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_gpio_basic Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_gpio_interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_pwm_example Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cobuemx_uart_tx_rx_int Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_timer_int Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_freertos Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_MPU6050 Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Audio_playback_and_record\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Audio_playback_and_record\ Debug/activeLaunchTarget=null\:---

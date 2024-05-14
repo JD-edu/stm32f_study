@@ -1,84 +1,21 @@
-23:44:45 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
+11:47:51 **** Incremental Build of configuration Debug for project cubemx_MPU6050 ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "cobuemx_uart_tx_rx_int.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cobuemx_uart_tx_rx_int\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cobuemx_uart_tx_rx_int.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: cobuemx_uart_tx_rx_int.elf
+arm-none-eabi-gcc -o "cubemx_MPU6050.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_MPU6050\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cubemx_MPU6050.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: cubemx_MPU6050.elf
  
-arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
-arm-none-eabi-objdump -h -S cobuemx_uart_tx_rx_int.elf  > "cobuemx_uart_tx_rx_int.list"
+arm-none-eabi-size  cubemx_MPU6050.elf 
+arm-none-eabi-objdump -h -S cubemx_MPU6050.elf  > "cubemx_MPU6050.list"
    text	   data	    bss	    dec	    hex	filename
-  10560	     36	   1652	  12248	   2fd8	cobuemx_uart_tx_rx_int.elf
+  41828	    712	   2136	  44676	   ae84	cubemx_MPU6050.elf
 Finished building: default.size.stdout
  
-Finished building: cobuemx_uart_tx_rx_int.list
+Finished building: cubemx_MPU6050.list
  
-23:44:49 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
+11:47:57 **** Incremental Build of configuration Debug for project cubemx_MPU6050 ****
 make -j12 all 
-arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
+arm-none-eabi-size  cubemx_MPU6050.elf 
    text	   data	    bss	    dec	    hex	filename
-  10560	     36	   1652	  12248	   2fd8	cobuemx_uart_tx_rx_int.elf
-Finished building: default.size.stdout
- 
-23:49:22 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "cobuemx_uart_tx_rx_int.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cobuemx_uart_tx_rx_int\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cobuemx_uart_tx_rx_int.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: cobuemx_uart_tx_rx_int.elf
- 
-arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
-arm-none-eabi-objdump -h -S cobuemx_uart_tx_rx_int.elf  > "cobuemx_uart_tx_rx_int.list"
-   text	   data	    bss	    dec	    hex	filename
-  10544	     36	   1652	  12232	   2fc8	cobuemx_uart_tx_rx_int.elf
-Finished building: default.size.stdout
- 
-Finished building: cobuemx_uart_tx_rx_int.list
- 
-23:51:13 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "cobuemx_uart_tx_rx_int.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cobuemx_uart_tx_rx_int\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cobuemx_uart_tx_rx_int.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: cobuemx_uart_tx_rx_int.elf
- 
-arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
-arm-none-eabi-objdump -h -S cobuemx_uart_tx_rx_int.elf  > "cobuemx_uart_tx_rx_int.list"
-   text	   data	    bss	    dec	    hex	filename
-  10568	     36	   1652	  12256	   2fe0	cobuemx_uart_tx_rx_int.elf
-Finished building: default.size.stdout
- 
-Finished building: cobuemx_uart_tx_rx_int.list
- 
-23:52:16 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "cobuemx_uart_tx_rx_int.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cobuemx_uart_tx_rx_int\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cobuemx_uart_tx_rx_int.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: cobuemx_uart_tx_rx_int.elf
- 
-arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
-arm-none-eabi-objdump -h -S cobuemx_uart_tx_rx_int.elf  > "cobuemx_uart_tx_rx_int.list"
-   text	   data	    bss	    dec	    hex	filename
-  10564	     36	   1652	  12252	   2fdc	cobuemx_uart_tx_rx_int.elf
-Finished building: default.size.stdout
- 
-Finished building: cobuemx_uart_tx_rx_int.list
- 
-09:45:12 **** Build of configuration Debug for project cubemx_timer_int ****
-make -j12 all 
-arm-none-eabi-size  cubemx_timer_int.elf 
-   text	   data	    bss	    dec	    hex	filename
-   8048	     20	   1716	   9784	   2638	cubemx_timer_int.elf
-Finished building: default.size.stdout
- 
-09:45:46 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
-make -j12 all 
-arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
-   text	   data	    bss	    dec	    hex	filename
-  10564	     36	   1652	  12252	   2fdc	cobuemx_uart_tx_rx_int.elf
-Finished building: default.size.stdout
- 
-09:46:26 **** Incremental Build of configuration Debug for project cubemx_timer_int ****
-make -j12 all 
-arm-none-eabi-size  cubemx_timer_int.elf 
-   text	   data	    bss	    dec	    hex	filename
-   8048	     20	   1716	   9784	   2638	cubemx_timer_int.elf
+  41828	    712	   2136	  44676	   ae84	cubemx_MPU6050.elf
 Finished building: default.size.stdout
  

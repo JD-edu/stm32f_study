@@ -61,7 +61,7 @@ main-build: cubemx_MPU6050.elf secondary-outputs
 
 # Tool invocations
 cubemx_MPU6050.elf cubemx_MPU6050.map: $(OBJS) $(USER_OBJS) C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_MPU6050\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "cubemx_MPU6050.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_MPU6050\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cubemx_MPU6050.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "cubemx_MPU6050.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_MPU6050\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cubemx_MPU6050.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

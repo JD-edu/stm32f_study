@@ -1,0 +1,10 @@
+11:33:17 **** Incremental Build of configuration Debug for project cubemx_freertos ****
+make -j12 all 
+arm-none-eabi-size  cubemx_freertos.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23016	     24	  20488	  43528	   aa08	cubemx_freertos.elf
+Finished building: default.size.stdout
+ 
+
+11:33:18 Build Finished. 0 errors, 0 warnings. (took 323ms)
+

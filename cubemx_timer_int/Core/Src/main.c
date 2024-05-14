@@ -44,7 +44,8 @@ TIM_HandleTypeDef htim6;
 TIM_HandleTypeDef htim7;
 
 /* USER CODE BEGIN PV */
-
+uint8_t f_led_12 = 0;
+uint8_t f_led_13 = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -105,6 +106,13 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	if(f_led_13 == 1){
+		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
+		f_led_13 = 0;
+	}else if (f_led_12 == 1){
+		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+		f_led_12 = 0;
+	}
 
     /* USER CODE BEGIN 3 */
   }
@@ -279,10 +287,12 @@ static void MX_GPIO_Init(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
   if (htim == &htim7) {
-    HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
+    //HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
+	  f_led_13 = 1;
   }
   if (htim == &htim6) {
-      HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+      //HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+	  f_led_12 = 1;
   }
 }
 
