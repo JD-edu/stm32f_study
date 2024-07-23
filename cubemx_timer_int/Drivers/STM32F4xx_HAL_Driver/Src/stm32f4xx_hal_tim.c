@@ -3957,6 +3957,7 @@ void HAL_TIM_IRQHandler(TIM_HandleTypeDef *htim)
 #if (USE_HAL_TIM_REGISTER_CALLBACKS == 1)
       htim->PeriodElapsedCallback(htim);
 #else
+      if(htm == )
       HAL_TIM_PeriodElapsedCallback(htim);
 #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
     }

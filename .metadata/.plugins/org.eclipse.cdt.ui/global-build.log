@@ -1,21 +1,35 @@
-11:47:51 **** Incremental Build of configuration Debug for project cubemx_MPU6050 ****
+18:19:52 **** Incremental Build of configuration Debug for project motor_test ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "cubemx_MPU6050.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_MPU6050\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cubemx_MPU6050.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: cubemx_MPU6050.elf
+arm-none-eabi-gcc "../Core/Src/dynamixel_AX_12.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dynamixel_AX_12.d" -MT"Core/Src/dynamixel_AX_12.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dynamixel_AX_12.o"
+arm-none-eabi-gcc -o "motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\Downloads\motor_test\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor_test.elf
  
-arm-none-eabi-size  cubemx_MPU6050.elf 
-arm-none-eabi-objdump -h -S cubemx_MPU6050.elf  > "cubemx_MPU6050.list"
+arm-none-eabi-size  motor_test.elf 
+arm-none-eabi-objdump -h -S motor_test.elf  > "motor_test.list"
    text	   data	    bss	    dec	    hex	filename
-  41828	    712	   2136	  44676	   ae84	cubemx_MPU6050.elf
+  13944	     20	   3628	  17592	   44b8	motor_test.elf
 Finished building: default.size.stdout
  
-Finished building: cubemx_MPU6050.list
+Finished building: motor_test.list
  
-11:47:57 **** Incremental Build of configuration Debug for project cubemx_MPU6050 ****
+18:20:00 **** Incremental Build of configuration Debug for project motor_test ****
 make -j12 all 
-arm-none-eabi-size  cubemx_MPU6050.elf 
+arm-none-eabi-size  motor_test.elf 
    text	   data	    bss	    dec	    hex	filename
-  41828	    712	   2136	  44676	   ae84	cubemx_MPU6050.elf
+  13944	     20	   3628	  17592	   44b8	motor_test.elf
+Finished building: default.size.stdout
+ 
+18:20:17 **** Incremental Build of configuration Debug for project motor_test ****
+make -j12 all 
+arm-none-eabi-size  motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13944	     20	   3628	  17592	   44b8	motor_test.elf
+Finished building: default.size.stdout
+ 
+18:20:27 **** Incremental Build of configuration Debug for project motor_test ****
+make -j12 all 
+arm-none-eabi-size  motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13944	     20	   3628	  17592	   44b8	motor_test.elf
 Finished building: default.size.stdout
  
