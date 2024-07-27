@@ -1,0 +1,10 @@
+00:04:53 **** Incremental Build of configuration Debug for project cubemx_uart_tx_rx_dma ****
+make -j12 all 
+arm-none-eabi-size  cubemx_uart_tx_rx_dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11252	     36	   1748	  13036	   32ec	cubemx_uart_tx_rx_dma.elf
+Finished building: default.size.stdout
+ 
+
+00:04:53 Build Finished. 0 errors, 0 warnings. (took 202ms)
+

@@ -98,13 +98,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 	  if(button_pressed == 1){
 		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 1);
 		  HAL_Delay(1000);
 		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 0);
 		  button_pressed = 0;
 	  }
+    /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }

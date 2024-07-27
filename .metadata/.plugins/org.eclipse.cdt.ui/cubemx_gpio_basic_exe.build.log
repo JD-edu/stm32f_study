@@ -1,0 +1,10 @@
+22:03:53 **** Incremental Build of configuration Debug for project cubemx_gpio_basic_exe ****
+make -j12 all 
+arm-none-eabi-size  cubemx_gpio_basic_exe.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5832	     20	   1572	   7424	   1d00	cubemx_gpio_basic_exe.elf
+Finished building: default.size.stdout
+ 
+
+22:03:54 Build Finished. 0 errors, 0 warnings. (took 626ms)
+

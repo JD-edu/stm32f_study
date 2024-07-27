@@ -41,9 +41,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_macro  000229fa  00000000  00000000  0003517a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   00013608  00000000  00000000  00057b74  2**0
+ 19 .debug_line   0001360a  00000000  00000000  00057b74  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    000d0845  00000000  00000000  0006b17c  2**0
+ 20 .debug_str    000d0845  00000000  00000000  0006b17e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  21 .debug_frame  000055f8  00000000  00000000  0013b9c4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -2180,20 +2180,20 @@ int main(void)
   MPU9250_Init(&hi2c1);
  80016c2:	480e      	ldr	r0, [pc, #56]	; (80016fc <main+0x5c>)
  80016c4:	f7ff fbee 	bl	8000ea4 <MPU9250_Init>
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 	  MPU9250_Read_All(&hi2c1, &mpu9250);
  80016c8:	463b      	mov	r3, r7
  80016ca:	4619      	mov	r1, r3
  80016cc:	480b      	ldr	r0, [pc, #44]	; (80016fc <main+0x5c>)
  80016ce:	f7ff fc53 	bl	8000f78 <MPU9250_Read_All>
-	  HAL_Delay(500);
+	 	  HAL_Delay(500);
  80016d2:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
  80016d6:	f000 fc05 	bl	8001ee4 <HAL_Delay>
-	  printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
+	 	  printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
  80016da:	e9d7 4510 	ldrd	r4, r5, [r7, #64]	; 0x40
  80016de:	e9d7 2312 	ldrd	r2, r3, [r7, #72]	; 0x48
  80016e2:	e9d7 0114 	ldrd	r0, r1, [r7, #80]	; 0x50

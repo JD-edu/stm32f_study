@@ -1,4 +1,4 @@
-09:45:46 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
+00:04:17 **** Incremental Build of configuration Debug for project cobuemx_uart_tx_rx_int ****
 make -j12 all 
 arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  cobuemx_uart_tx_rx_int.elf
 Finished building: default.size.stdout
  
 
-09:45:46 Build Finished. 0 errors, 0 warnings. (took 385ms)
+00:04:18 Build Finished. 0 errors, 0 warnings. (took 360ms)
 

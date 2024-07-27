@@ -387,11 +387,11 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
  80004d4:	f000 f878 	bl	80005c8 <MX_NVIC_Init>
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 	  if(button_pressed == 1){
  80004d8:	4b0b      	ldr	r3, [pc, #44]	; (8000508 <main+0x44>)
  80004da:	681b      	ldr	r3, [r3, #0]

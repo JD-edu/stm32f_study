@@ -113,10 +113,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 	  MPU9250_Read_All(&hi2c1, &mpu9250);
-	  HAL_Delay(500);
-	  printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
+	 	  HAL_Delay(500);
+	 	  printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
+    /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

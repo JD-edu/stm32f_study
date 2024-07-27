@@ -104,15 +104,14 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
-  {
-    /* USER CODE END WHILE */
-	if(f_led_13 == 1){
+  {if(f_led_13 == 1){
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
 		f_led_13 = 0;
 	}else if (f_led_12 == 1){
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
 		f_led_12 = 0;
 	}
+    /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }
@@ -196,9 +195,9 @@ static void MX_TIM6_Init(void)
 
   /* USER CODE END TIM6_Init 1 */
   htim6.Instance = TIM6;
-  htim6.Init.Prescaler = 9999;
+  htim6.Init.Prescaler = 50000;
   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim6.Init.Period = 200;
+  htim6.Init.Period = 500;
   htim6.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim6) != HAL_OK)
   {
@@ -286,13 +285,13 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-  if (htim == &htim7) {
+  //if (htim == &htim7) {
     //HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
-	  f_led_13 = 1;
-  }
+	//  f_led_13 = 1;
+  //}
   if (htim == &htim6) {
-      //HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
-	  f_led_12 = 1;
+      HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+//	  f_led_12 = 1;
   }
 }
 
