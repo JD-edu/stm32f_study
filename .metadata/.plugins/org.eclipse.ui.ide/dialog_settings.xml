@@ -16,5 +16,9 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\conne\STM32CubeIDE\workspace_1.14.1\terria_f4"/>
+			<item value="C:\Users\conne\OneDrive\문서\카카오톡 받은 파일\terria_f4"/>
+		</list>
 	</section>
 </section>

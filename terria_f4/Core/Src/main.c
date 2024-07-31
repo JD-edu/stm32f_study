@@ -125,6 +125,9 @@ int main(void)
   while (1)
   {
 	  htim8.Instance->CCR2 = speed;
+	  HAL_Delay(1000);
+	  htim8.Instance->CCR2 = speed/2;
+	  HAL_Delay(1000);
 	  //HAL_Delay(10);
 	  //Bsp_Loop();
 		//Motor_Set_Pwm(MOTOR_ID_M1, speed);

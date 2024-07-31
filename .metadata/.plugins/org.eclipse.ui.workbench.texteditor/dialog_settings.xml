@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="HAL_TIM_PeriodElapsedCallback"/>
+		<item key="selection" value="Systick"/>
 		<list key="findhistory">
+			<item value="systick"/>
+			<item value="gunDuty"/>
+			<item value=" gunDuty"/>
 			<item value="HAL_TIM_PeriodElapsedCallback"/>
 			<item value="toggle"/>
 			<item value="gunPWM"/>
