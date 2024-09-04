@@ -236,8 +236,10 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *UartHandle)
 	}
 	 if(HAL_UART_Receive_IT(&huart2, (uint8_t *)receive_str, 5) != HAL_OK)
 	  {
-	    Error_Handler();
+		//Error_Handler();
 	  }
+	//HAL_UART_Transmit_IT(&huart2, (uint8_t *)receive_str, 1);
+	//HAL_UART_Receive_IT(&huart2, (uint8_t *)receive_str, 1);
 
 }
 

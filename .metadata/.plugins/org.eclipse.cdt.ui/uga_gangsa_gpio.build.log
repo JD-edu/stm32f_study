@@ -1,0 +1,17 @@
+19:21:56 **** Incremental Build of configuration Debug for project uga_gangsa_gpio ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "uga_gangsa_gpio.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_gpio\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uga_gangsa_gpio.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: uga_gangsa_gpio.elf
+ 
+arm-none-eabi-size  uga_gangsa_gpio.elf 
+arm-none-eabi-objdump -h -S uga_gangsa_gpio.elf  > "uga_gangsa_gpio.list"
+   text	   data	    bss	    dec	    hex	filename
+   5680	     20	   1572	   7272	   1c68	uga_gangsa_gpio.elf
+Finished building: default.size.stdout
+ 
+Finished building: uga_gangsa_gpio.list
+ 
+
+19:21:58 Build Finished. 0 errors, 0 warnings. (took 1s.932ms)
+

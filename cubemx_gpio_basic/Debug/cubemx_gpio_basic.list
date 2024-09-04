@@ -383,31 +383,31 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
  80004d0:	f000 f876 	bl	80005c0 <MX_GPIO_Init>
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    /* USER CODE END WHILE */
-	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == 1){
+	 // if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == 1){
+	//	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 1);
+	  //}else{
+	//	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 0);
+	  //}
+	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET){
  80004d4:	2101      	movs	r1, #1
  80004d6:	480a      	ldr	r0, [pc, #40]	; (8000500 <main+0x3c>)
  80004d8:	f000 fc5a 	bl	8000d90 <HAL_GPIO_ReadPin>
  80004dc:	4603      	mov	r3, r0
  80004de:	2b01      	cmp	r3, #1
  80004e0:	d106      	bne.n	80004f0 <main+0x2c>
-		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 1);
+		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
  80004e2:	2201      	movs	r2, #1
  80004e4:	f44f 5180 	mov.w	r1, #4096	; 0x1000
  80004e8:	4806      	ldr	r0, [pc, #24]	; (8000504 <main+0x40>)
  80004ea:	f000 fc69 	bl	8000dc0 <HAL_GPIO_WritePin>
  80004ee:	e7f1      	b.n	80004d4 <main+0x10>
 	  }else{
-		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 0);
+		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
  80004f0:	2200      	movs	r2, #0
  80004f2:	f44f 5180 	mov.w	r1, #4096	; 0x1000
  80004f6:	4803      	ldr	r0, [pc, #12]	; (8000504 <main+0x40>)
  80004f8:	f000 fc62 	bl	8000dc0 <HAL_GPIO_WritePin>
-	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == 1){
+	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET){
  80004fc:	e7ea      	b.n	80004d4 <main+0x10>
  80004fe:	bf00      	nop
  8000500:	40020000 	.word	0x40020000

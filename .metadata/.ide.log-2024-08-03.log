@@ -1,0 +1,85 @@
+2024-08-03 19:45:56,479 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: Native resources unavailable
+2024-08-03 19:45:56,512 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)
+2024-08-03 19:45:56,513 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)
+2024-08-03 19:45:56,515 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2024-08-03 19:45:56,517 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2024-08-03 19:45:56,518 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-08-03 19:45:56,521 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-08-03 19:45:56,523 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-08-03 19:45:56,527 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-08-03 19:45:56,530 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-08-03 19:45:56,531 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-08-03 19:45:56,533 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-08-03 19:45:56,535 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-08-03 19:45:56,538 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-08-03 19:45:56,541 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-08-03 19:45:56,544 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-08-03 19:45:56,548 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-08-03 19:45:56,551 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-08-03 19:45:56,556 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-08-03 19:45:56,559 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-08-03 19:45:56,562 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-08-03 19:48:14,006 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:48:49,233 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:49:09,937 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:49:19,303 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:49:26,179 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:51:00,720 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:51:19,479 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,28,310x488,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-08-03 19:51:24,416 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:53:19,393 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS]
+2024-08-03 19:53:22,331 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,28,391x502,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-08-03 19:53:40,231 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 775756200 Bytes (1073741824)
+2024-08-03 19:53:43,677 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 896623968 Bytes (1073741824)
+2024-08-03 19:53:43,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-03 19:53:43,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-03 19:53:43,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-03 19:53:43,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-03 19:53:43,974 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-08-03 19:53:44,117 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\MXTmpFiles\license.tmp_save
+2024-08-03 19:53:44,199 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\MXTmpFiles\license.tmp
+2024-08-03 19:53:44,238 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\MXTmpFiles\gpio.tmp_save
+2024-08-03 19:53:44,385 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\MXTmpFiles\gpio.tmp
+2024-08-03 19:53:44,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Src\stm32f4xx_it.c_save
+2024-08-03 19:53:44,634 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Src\stm32f4xx_it.c
+2024-08-03 19:53:44,644 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Inc\stm32f4xx_it.h_save
+2024-08-03 19:53:44,749 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Inc\stm32f4xx_it.h
+2024-08-03 19:53:44,778 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Src\stm32f4xx_hal_msp.c_save
+2024-08-03 19:53:44,895 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Src\stm32f4xx_hal_msp.c
+2024-08-03 19:53:44,900 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\MXTmpFiles\system.tmp_save
+2024-08-03 19:53:44,988 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\MXTmpFiles\system.tmp
+2024-08-03 19:53:45,029 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-08-03 19:53:45,180 [INFO] CodeEngine:335 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Inc\stm32f4xx_hal_conf.h
+2024-08-03 19:53:45,252 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Inc\main.h_save
+2024-08-03 19:53:45,435 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Inc\main.h
+2024-08-03 19:53:45,476 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Src\main.c_save
+2024-08-03 19:53:45,631 [INFO] CodeEngine:279 - Generated code: C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gangsa_int\Core\Src\main.c
+2024-08-03 19:53:46,401 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 291mS.
+2024-08-03 19:53:46,407 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-08-03 19:53:46,707 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-08-03 19:53:48,599 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2190mS.
+2024-08-03 19:53:48,600 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-08-03 19:53:48,603 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-08-03 19:54:03,852 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: Native resources unavailable
+2024-08-03 19:54:03,853 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)
+2024-08-03 19:54:03,855 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)
+2024-08-03 19:54:03,857 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2024-08-03 19:54:03,857 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2024-08-03 19:54:03,858 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-08-03 19:54:03,858 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-08-03 19:54:03,859 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-08-03 19:54:03,860 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-08-03 19:54:03,863 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-08-03 19:54:03,864 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-08-03 19:54:03,865 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-08-03 19:54:03,868 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-08-03 19:54:03,869 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-08-03 19:54:03,870 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-08-03 19:54:03,872 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-08-03 19:54:03,873 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-08-03 19:54:03,874 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-08-03 19:54:03,875 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-08-03 19:54:03,877 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-08-03 19:54:03,878 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-08-03 20:03:12,923 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-08-03 20:03:12,923 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

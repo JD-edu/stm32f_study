@@ -1,0 +1,10 @@
+14:51:34 **** Incremental Build of configuration Debug for project gasan_exam ****
+make -j12 all 
+arm-none-eabi-size  gasan_exam.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5820	     20	   1572	   7412	   1cf4	gasan_exam.elf
+Finished building: default.size.stdout
+ 
+
+14:51:34 Build Finished. 0 errors, 0 warnings. (took 203ms)
+

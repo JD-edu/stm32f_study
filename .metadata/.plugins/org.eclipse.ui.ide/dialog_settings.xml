@@ -17,8 +17,17 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\conne\STM32CubeIDE\workspace_1.14.1\cubemx_MPU6050"/>
+			<item value="C:\Users\conne\Downloads\stm32f_study-main\cubemx_MPU6050"/>
 			<item value="C:\Users\conne\STM32CubeIDE\workspace_1.14.1\terria_f4"/>
 			<item value="C:\Users\conne\OneDrive\문서\카카오톡 받은 파일\terria_f4"/>
 		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="663"/>
+		<item key="DIALOG_Y_ORIGIN" value="92"/>
+		<item key="DIALOG_WIDTH" value="613"/>
+		<item key="DIALOG_HEIGHT" value="641"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

@@ -102,7 +102,7 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-  if(HAL_UART_Receivie_IT(&huart2, (uint8_t *)rx_buffer, 5) == HAL_OK)
+  if(HAL_UART_Receive_IT(&huart2, (uint8_t *)rx_buffer, 5) == HAL_OK)
   {
 	  Error_Handler();
   }

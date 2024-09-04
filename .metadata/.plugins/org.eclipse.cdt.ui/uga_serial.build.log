@@ -1,0 +1,17 @@
+14:52:48 **** Incremental Build of configuration Debug for project uga_serial ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "uga_serial.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_serial\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uga_serial.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: uga_serial.elf
+ 
+arm-none-eabi-size  uga_serial.elf 
+arm-none-eabi-objdump -h -S uga_serial.elf  > "uga_serial.list"
+   text	   data	    bss	    dec	    hex	filename
+  10404	     28	   1652	  12084	   2f34	uga_serial.elf
+Finished building: default.size.stdout
+ 
+Finished building: uga_serial.list
+ 
+
+14:52:49 Build Finished. 0 errors, 0 warnings. (took 849ms)
+

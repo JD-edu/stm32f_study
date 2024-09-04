@@ -1,0 +1,17 @@
+12:25:06 **** Incremental Build of configuration Debug for project uga_gpio_int ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "uga_gpio_int.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\uga_gpio_int\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uga_gpio_int.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: uga_gpio_int.elf
+ 
+arm-none-eabi-size  uga_gpio_int.elf 
+arm-none-eabi-objdump -h -S uga_gpio_int.elf  > "uga_gpio_int.list"
+   text	   data	    bss	    dec	    hex	filename
+   6048	     20	   1572	   7640	   1dd8	uga_gpio_int.elf
+Finished building: default.size.stdout
+ 
+Finished building: uga_gpio_int.list
+ 
+
+12:25:07 Build Finished. 0 errors, 0 warnings. (took 783ms)
+

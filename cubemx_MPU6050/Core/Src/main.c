@@ -18,13 +18,16 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+// Keep this location for below header files. IF not, header files can be erased
+// during CubMX code generation.
 #include "i2c.h"
+// After CubeMX code generation, please delete MX_I2C1_Init(). Because i2C.h already has it.
 #include "MPU9250_2.h"
 #include "mpu9250.h"
 #include <stdio.h>
-/* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
-
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,6 +46,8 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+ADC_HandleTypeDef hadc3;
+
 I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim7;
@@ -59,6 +64,7 @@ static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_TIM7_Init(void);
 static void MX_USART2_UART_Init(void);
+static void MX_ADC3_Init(void);
 static void MX_NVIC_Init(void);
 /* USER CODE BEGIN PFP */
 
@@ -100,6 +106,7 @@ int main(void)
   MX_I2C1_Init();
   MX_TIM7_Init();
   MX_USART2_UART_Init();
+  MX_ADC3_Init();
 
   /* Initialize interrupts */
   MX_NVIC_Init();
@@ -113,9 +120,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  MPU9250_Read_All(&hi2c1, &mpu9250);
-	 	  HAL_Delay(500);
-	 	  printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
+	MPU9250_Read_All(&hi2c1, &mpu9250);
+	HAL_Delay(500);
+	printf("pitch: %lf roll: %lf yaw: %lf \r\n", mpu9250.KalmanAngleX, mpu9250.KalmanAngleY, mpu9250.KalmanAngleZ);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -142,12 +149,7 @@ void SystemClock_Config(void)
   */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLM = 4;
-  RCC_OscInitStruct.PLL.PLLN = 50;
-  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 4;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -157,12 +159,12 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSE;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
   {
     Error_Handler();
   }
@@ -188,6 +190,57 @@ static void MX_NVIC_Init(void)
   HAL_NVIC_EnableIRQ(USART2_IRQn);
 }
 
+/**
+  * @brief ADC3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC3_Init(void)
+{
+
+  /* USER CODE BEGIN ADC3_Init 0 */
+
+  /* USER CODE END ADC3_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC3_Init 1 */
+
+  /* USER CODE END ADC3_Init 1 */
+
+  /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion)
+  */
+  hadc3.Instance = ADC3;
+  hadc3.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
+  hadc3.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc3.Init.ScanConvMode = DISABLE;
+  hadc3.Init.ContinuousConvMode = DISABLE;
+  hadc3.Init.DiscontinuousConvMode = DISABLE;
+  hadc3.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc3.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc3.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc3.Init.NbrOfConversion = 1;
+  hadc3.Init.DMAContinuousRequests = DISABLE;
+  hadc3.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  if (HAL_ADC_Init(&hadc3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Channel = ADC_CHANNEL_11;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc3, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC3_Init 2 */
+
+  /* USER CODE END ADC3_Init 2 */
+
+}
 
 /**
   * @brief TIM7 Initialization Function
@@ -260,12 +313,6 @@ static void MX_USART2_UART_Init(void)
 
 }
 
-int __io_putchar (int ch)
-{
-  (void)HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 100);
-  return ch;
-}
-
 /**
   * @brief GPIO Initialization Function
   * @param None
@@ -278,6 +325,7 @@ static void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
@@ -291,6 +339,12 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   if (htim == &htim7) {
     HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
   }
+}
+
+int __io_putchar (int ch)
+{
+  (void)HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 100);
+  return ch;
 }
 
 /* USER CODE END 4 */

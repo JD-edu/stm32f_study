@@ -1,0 +1,17 @@
+14:17:08 **** Incremental Build of configuration Debug for project gasan_timer_1 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "gasan_timer_1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\gasan_timer_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="gasan_timer_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: gasan_timer_1.elf
+ 
+arm-none-eabi-size  gasan_timer_1.elf 
+arm-none-eabi-objdump -h -S gasan_timer_1.elf  > "gasan_timer_1.list"
+   text	   data	    bss	    dec	    hex	filename
+   8340	     20	   1644	  10004	   2714	gasan_timer_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: gasan_timer_1.list
+ 
+
+14:17:10 Build Finished. 0 errors, 0 warnings. (took 2s.462ms)
+

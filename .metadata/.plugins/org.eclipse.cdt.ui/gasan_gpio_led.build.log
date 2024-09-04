@@ -1,0 +1,17 @@
+12:29:09 **** Incremental Build of configuration Debug for project gasan_gpio_led ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "gasan_gpio_led.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\conne\STM32CubeIDE\workspace_1.14.1\gasan_gpio_led\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="gasan_gpio_led.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: gasan_gpio_led.elf
+ 
+arm-none-eabi-size  gasan_gpio_led.elf 
+arm-none-eabi-objdump -h -S gasan_gpio_led.elf  > "gasan_gpio_led.list"
+   text	   data	    bss	    dec	    hex	filename
+   5824	     20	   1572	   7416	   1cf8	gasan_gpio_led.elf
+Finished building: default.size.stdout
+ 
+Finished building: gasan_gpio_led.list
+ 
+
+12:29:10 Build Finished. 0 errors, 0 warnings. (took 742ms)
+

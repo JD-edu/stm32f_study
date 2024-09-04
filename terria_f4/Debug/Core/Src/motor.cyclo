@@ -1,4 +1,0 @@
-../Core/Src/motor.c:15:16:Motor_Ignore_Dead_Zone	3
-../Core/Src/motor.c:23:6:Motor_Init	1
-../Core/Src/motor.c:37:6:Motor_Stop	2
-../Core/Src/motor.c:47:6:Motor_Set_Pwm	7

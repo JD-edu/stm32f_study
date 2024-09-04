@@ -1,0 +1,10 @@
+19:56:21 **** Incremental Build of configuration Debug for project uga_gangsa_int ****
+make -j12 all 
+arm-none-eabi-size  uga_gangsa_int.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	uga_gangsa_int.elf
+Finished building: default.size.stdout
+ 
+
+19:56:21 Build Finished. 0 errors, 0 warnings. (took 424ms)
+

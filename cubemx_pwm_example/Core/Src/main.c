@@ -43,8 +43,6 @@
 TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
-unsigned int gunPWM = 100;
-unsigned int gunDuty = 50;
 
 /* USER CODE END PV */
 
@@ -52,13 +50,14 @@ unsigned int gunDuty = 50;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_NVIC_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+unsigned int dim = 0;
 /* USER CODE END 0 */
 
 /**
@@ -90,6 +89,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM4_Init();
+
+  /* Initialize interrupts */
+  MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -99,10 +101,14 @@ int main(void)
   while (1)
   {
 	//TIM4->CCR1 = 50;
-	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 100);
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 50);
 	HAL_Delay(1000);
+	//dim++;
+	//if(dim > 1900){
+	//	dim = 0;
+	//}
 	//TIM4->CCR1 = 100;
-	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 60);
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 100);
 	HAL_Delay(1000);
     /* USER CODE END WHILE */
 
@@ -152,6 +158,17 @@ void SystemClock_Config(void)
 }
 
 /**
+  * @brief NVIC Configuration.
+  * @retval None
+  */
+static void MX_NVIC_Init(void)
+{
+  /* TIM4_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(TIM4_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(TIM4_IRQn);
+}
+
+/**
   * @brief TIM4 Initialization Function
   * @param None
   * @retval None
@@ -196,7 +213,7 @@ static void MX_TIM4_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 1900-1;
+  sConfigOC.Pulse = 1900-1; // PWM 듀티를 결정하는 레지스터 값 설정
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
